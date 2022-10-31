@@ -22,7 +22,7 @@ void solve() {
         ll nt =+ *last_it;
         ans += nt;
         bags.erase(last_it);
-        bags.insert(nt/2);
+        bags.insert(nt/2) ;
     }
    cout << ans << endl;
 }
